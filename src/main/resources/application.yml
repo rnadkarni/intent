@@ -1,0 +1,10 @@
+greetings: quarkusHellowworld123
+quarkus:
+    http:
+        port: 9080
+    log:
+        console:
+            enable: true
+        file:
+            enable: true
+            path: log/quarkus.log
